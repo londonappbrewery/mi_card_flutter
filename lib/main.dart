@@ -11,24 +11,20 @@ class MyApp extends StatelessWidget {
       home: Scaffold(
         backgroundColor: Colors.teal,
         body: SafeArea(
-          child: Row(
-            crossAxisAlignment: CrossAxisAlignment.stretch,
+          child: Column(
             children: <Widget>[
-              Container(
-                color: Colors.white,
-                child: Text('Container 1'),
+              CircleAvatar(
+                radius: 50.0,
+                backgroundImage: AssetImage('images/fliao.jpeg'),
               ),
-              SizedBox(
-                width: 30.0,
-              ),
-              Container(
-                color: Colors.blue,
-                child: Text('Container 2'),
-              ),
-              Container(
-                color: Colors.red,
-                child: Text('Container 3'),
-              ),
+              Text(
+                'Frank Liao',
+                style: TextStyle(
+                  fontSize: 40.0,
+                  color: Colors.white,
+                  fontWeight: FontWeight.bold,
+                ),
+              )
             ],
           ),
         ),
