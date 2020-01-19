@@ -10,10 +10,14 @@ Now that you've seen how to create a Flutter app entirely from scratch, we're go
 
 Mi Card is a personal business card. Imagine every time you wanted to give someone your contact details or your business card but you didn't have it on you. Well, now you can get them to download your business card as an app.
 
-## What you will learn
+## O QUE APRENDI
 
-* How to create Stateless Widgets
-* What is the difference between hot reload and hot refresh and running an app from cold
+* Como criar Stateless Widgets
+* Diferença entre Hot Relaod e Hot Refresh e rodar um app do Zero
+   - >Hot Reload apenas é feito com os Staless e stafull Widgets , que permite diminuir o tempo de desenvolvimento, visto que o desenvolvedor observa quase instantaneamente as mudanças ( em questão de milisegundos) , procuram apenas por alterações feitas no código sem reprecisar rodar o app do zero
+
+  - >HotReload => atualização do UI apenas, sem resetar o estado do App ( variáveis continuam com o valor anterior )
+   - >HotRefresh => reseta o estado do aplicativo, variavies com valores default
 * How to use Containers to lay out your UI
 * How to use Columns and Rows to position your UI elements
 * How to add custom fonts
