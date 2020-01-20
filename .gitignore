@@ -38,6 +38,7 @@ build/
 **/android/**/GeneratedPluginRegistrant.java
 
 # iOS/XCode related
+**/ios/Flutter/flutter_export_environment.sh
 **/ios/**/*.mode1v3
 **/ios/**/*.mode2v3
 **/ios/**/*.moved-aside
