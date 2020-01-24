@@ -2,13 +2,13 @@
 
 # Mi Card
 
-## Our Goal
+## Objetivos
 
-Now that you've seen how to create a Flutter app entirely from scratch, we're going to go further and learn more about how to design user interfaces for Flutter apps.
+Depois de  aprendemos a criar um app do zero, agora iremos aprender mais sobre desenhar UI para aplicativos em Flutter.
 
-## What you will create
+## O Vou criar
 
-Mi Card is a personal business card. Imagine every time you wanted to give someone your contact details or your business card but you didn't have it on you. Well, now you can get them to download your business card as an app.
+Mi Card é um cartão de negocios pessoal . Imagine sempre que precisa passar os detalhes do contato ou o cartão de negocios mas você não se encontra com ele no momento. Bom agora pode obter , fazendo o download do cartão com um app.
 
 ## O QUE APRENDI
 
@@ -25,7 +25,7 @@ Mi Card is a personal business card. Imagine every time you wanted to give someo
 * How to style Text widgets
 * How to read and use Flutter Documentation
 
-
+Starter code for the Mi Card Project from the Complete Flutter Development Bootcamp
 
 >This is a companion project to The App Brewery's Complete Flutter Development Bootcamp, check out the full course at [www.appbrewery.co](https://www.appbrewery.co/)
 
