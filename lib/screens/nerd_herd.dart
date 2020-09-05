@@ -2,19 +2,20 @@ import 'package:flutter/material.dart';
 import 'package:barcode_widget/barcode_widget.dart';
 import 'package:lite_rolling_switch/lite_rolling_switch.dart';
 
-void main() {
-  runApp(MyApp());
+class NerdHerd extends StatefulWidget {
+  @override
+  _NerdHerdState createState() => _NerdHerdState();
 }
 
-class MyApp extends StatelessWidget {
+class _NerdHerdState extends State<NerdHerd> {
+  final logo = Image.asset(
+    "assets/logo.png",
+  );
+
+  final profile = Image.asset('assets/profile.jpg');
+
   @override
   Widget build(BuildContext context) {
-    final logo = Image.asset(
-      "assets/logo.png",
-    );
-
-    final profile = Image.asset('assets/profile.jpg');
-
     return MaterialApp(
       home: Scaffold(
         backgroundColor: Colors.white,
@@ -43,7 +44,7 @@ class MyApp extends StatelessWidget {
                 ),
               ),
               Padding(
-                padding: EdgeInsets.only(top: 10.0, bottom: 20.0),
+                padding: EdgeInsets.only(top: 20.0, bottom: 20.0),
                 child: Text(
                   'Danny Francisco',
                   style: TextStyle(
