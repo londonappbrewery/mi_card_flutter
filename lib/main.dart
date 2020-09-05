@@ -13,7 +13,9 @@ class MyApp extends StatelessWidget {
       "assets/logo.png",
     );
 
-    final profile = Image.asset('assets/profile.jpg');
+    final profile = Image.asset(
+      'assets/profile.jpg',
+    );
 
     return MaterialApp(
       home: Scaffold(
@@ -33,8 +35,8 @@ class MyApp extends StatelessWidget {
                 padding: EdgeInsets.only(top: 10.0),
                 child: LiteRollingSwitch(
                   value: false,
-                  colorOn: Colors.white24,
-                  colorOff: Colors.white54,
+                  colorOn: Colors.black26,
+                  colorOff: Colors.black12,
                   iconOn: Icons.lightbulb_outline,
                   iconOff: Icons.power_settings_new,
                   onChanged: (bool state) {
