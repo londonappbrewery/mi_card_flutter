@@ -1,6 +1,6 @@
 ![App Brewery Banner](https://github.com/londonappbrewery/Images/blob/master/AppBreweryBanner.png)
 
-# Mi Card
+# Mi Card - small change
 
 ## Our Goal
 
