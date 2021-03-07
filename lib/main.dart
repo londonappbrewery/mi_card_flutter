@@ -34,8 +34,7 @@ class MyApp extends StatelessWidget {
                   letterSpacing: 1,
                 ),
               ),
-              Container(
-                padding: EdgeInsets.all(10.0),
+              Card(
                 color: Colors.white,
                 margin: EdgeInsets.symmetric(
                   vertical: 10.0,
@@ -61,8 +60,7 @@ class MyApp extends StatelessWidget {
                   ],
                 ),
               ),
-              Container(
-                padding: EdgeInsets.all(10.0),
+              Card(
                 margin: EdgeInsets.symmetric(
                   vertical: 10.0, 
                   horizontal: 25.0,
