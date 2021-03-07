@@ -30,4 +30,4 @@ flutter:
 
   - family:  Source Sans Pro
     fonts:
-    - asset: 'fonts/SourceSansPro-Light.ttf'
+    - asset: 'fonts/SourceSansPro-Regular.ttf'
