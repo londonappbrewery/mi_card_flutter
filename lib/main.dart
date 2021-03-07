@@ -22,9 +22,18 @@ class MyApp extends StatelessWidget {
                 style: TextStyle(
                   fontSize: 40.0,
                   color: Colors.white,
-                  fontWeight: FontWeight.bold
+                  fontFamily: 'Open Sans',
                 ),
-              )
+              ),
+              Text(
+                'FLUTTER DEVELOPER',
+                style: TextStyle(
+                  fontFamily: 'Source Sans Pro',
+                  color: Colors.teal[100],
+                  fontSize: 18.0,
+                  letterSpacing: 1,
+                ),
+              ),
             ],
           )
         ),

@@ -22,3 +22,12 @@ flutter:
 
   assets:
   - images/
+
+  fonts:
+  - family: Open Sans
+    fonts:
+    - asset: 'fonts/OpenSans-Light.ttf'
+
+  - family:  Source Sans Pro
+    fonts:
+    - asset: 'fonts/SourceSansPro-Light.ttf'
