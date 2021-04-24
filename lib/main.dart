@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
                 height: double.infinity,
                 color: Colors.red,
               ),
-              Column(children: [
+              Column(mainAxisAlignment: MainAxisAlignment.center, children: [
                 Container(
                   width: 100.0,
                   height: 100.0,
