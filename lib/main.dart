@@ -11,34 +11,22 @@ class MyApp extends StatelessWidget {
       home: Scaffold(
         backgroundColor: Colors.teal,
         body: SafeArea(
-          child: Row(
-            mainAxisAlignment: MainAxisAlignment.spaceBetween,
-            children: [
-              Container(
-                width: 100.0,
-                height: double.infinity,
-                color: Colors.red,
-              ),
-              Column(mainAxisAlignment: MainAxisAlignment.center, children: [
-                Container(
-                  width: 100.0,
-                  height: 100.0,
-                  color: Colors.yellow,
-                ),
-                Container(
-                  width: 100.0,
-                  height: 100.0,
-                  color: Colors.yellow[100],
-                ),
-              ]),
-              Container(
-                width: 100.0,
-                height: double.infinity,
-                color: Colors.blue,
-              ),
-            ],
-          ),
-        ),
+            child: Column(
+          children: [
+            CircleAvatar(
+              radius: 50,
+              backgroundColor: Colors.amber,
+              backgroundImage: AssetImage("images/me.jpg"),
+            ),
+            Text(
+              "Laksan Jayasinghe",
+              style: TextStyle(
+                  fontSize: 13,
+                  color: Colors.white,
+                  fontWeight: FontWeight.bold),
+            )
+          ],
+        )),
       ),
     );
   }
