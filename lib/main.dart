@@ -21,10 +21,19 @@ class MyApp extends StatelessWidget {
             Text(
               "Laksan Jayasinghe",
               style: TextStyle(
-                  fontSize: 13,
+                  fontSize: 30,
                   color: Colors.white,
-                  fontWeight: FontWeight.bold),
-            )
+                  fontWeight: FontWeight.bold,
+                  fontFamily: "Pacifico"),
+            ),
+            Text(
+              "UCSC UNDERGRADUATE",
+              style: TextStyle(
+                fontSize: 16,
+                color: Colors.teal.shade100,
+                fontWeight: FontWeight.bold,
+              ),
+            ),
           ],
         )),
       ),
