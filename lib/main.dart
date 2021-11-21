@@ -16,6 +16,7 @@ class Myapp extends StatelessWidget {
         backgroundColor: Colors.teal,
         body: SafeArea(
           child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
             children: [
               CircleAvatar(
                 radius: 50.0,
@@ -40,53 +41,49 @@ class Myapp extends StatelessWidget {
                   fontWeight: FontWeight.bold,
                 ),
               ),
-              Container(
-                color: Colors.white,
-                margin: EdgeInsets.symmetric(vertical: 10.0,horizontal: 45.0),
-                child: Row(
-                  children: [
-                    Icon(
-                        Icons.phone,
-                      color: Colors.teal,
-                    ),
-                    SizedBox(
-                      width: 20.0,
-                    ),
-                    Text('+91 9650903923',
-                    style: TextStyle(
-                      color: Colors.teal,
-                      fontFamily: 'SourceSansPro',
-                      fontSize: 20.0,
-                    ),
-                    )
-                  ],
+              SizedBox(
+                height: 20.0,
+                width: 150.0,
+                child: Divider(
+                  color: Colors.teal.shade100,
                 ),
               ),
-              Container(
-                color: Colors.white,
-                padding: EdgeInsets.all(10.0),
-                margin: EdgeInsets.symmetric(vertical: 10.0,horizontal: 25.0),
-                child: Row(
-                  children: [
-                    Icon(Icons.email,
+              Card(
+                margin: EdgeInsets.symmetric(vertical: 10.0,horizontal: 45.0),
+                child: ListTile(
+                  leading: Icon(
+                    Icons.phone,
                     color: Colors.teal,
+                  ),
+                  title: Text('+91 9650903923',
+                    style: TextStyle(
+                      color: Colors.teal,
+                      fontFamily: 'SourceSansPro',
+                      fontSize: 20.0,
                     ),
-                    SizedBox(
-                      width: 20.0,
-                    ),
-                    Text('kumarjitu199@gmail.com',
+                  ) ,
+                ),
+              ),
+              Card(
+                margin: EdgeInsets.symmetric(vertical: 10.0,horizontal: 25.0),
+                child: ListTile(
+                  leading: Icon(Icons.email,
+                    color: Colors.teal,
+                  ),
+                  title: Text('kumarjitu199@gmail.com',
                     style: TextStyle(
                       fontSize: 20.0,
                       fontFamily: 'SourceSansPro',
+                      //fontWeight: FontWeight.bold,
                       color: Colors.teal,
-                    ),)
-                  ],
-                ),
+                    ),),
+                )
               )
             ],
           ),
          ),
         ),
+      debugShowCheckedModeBanner: false,
       );
   }
 }
