@@ -1,0 +1,6 @@
+io/flutter/plugins/GeneratedPluginRegistrant.java
+ io.flutter.plugins.GeneratedPluginRegistrant
+co/appbrewery/micard/BuildConfig.java
+ co.appbrewery.micard.BuildConfig
+co/appbrewery/micard/MainActivity.java
+ co.appbrewery.micard.MainActivity
