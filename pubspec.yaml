@@ -35,23 +35,15 @@ flutter:
 
   assets:
     - images/profile.jpg
-  #  - images/a_dot_ham.jpeg
 
-  # An image asset can refer to one or more resolution-specific "variants", see
-  # https://flutter.io/assets-and-images/#resolution-aware.
+  fonts:
+    - family: Pacifico
+      fonts:
+       - asset: fonts/Pacifico/Pacifico-Regular.ttf
 
-  # For details regarding adding assets from package dependencies, see
-  # https://flutter.io/assets-and-images/#from-packages
-
-  # To add custom fonts to your application, add a fonts section here,
-  # in this "flutter" section. Each entry in this list should have a
-  # "family" key with the font family name, and a "fonts" key with a
-  # list giving the asset and other descriptors for the font. For
-  # example:
-  # fonts:
-  #   - family: Schyler
-  #     fonts:
-  #       - asset: fonts/Schyler-Regular.ttf
+    - family: SourceSansPro
+      fonts:
+        - asset: fonts/Source_Sans_Pro/SourceSansPro-Regular.ttf
   #       - asset: fonts/Schyler-Italic.ttf
   #         style: italic
   #   - family: Trajan Pro

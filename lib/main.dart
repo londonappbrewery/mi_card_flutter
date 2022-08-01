@@ -11,23 +11,112 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        backgroundColor: Colors.teal,
+        backgroundColor: Colors.indigo,
         // SafeArea is used to make elements on device position correct for the user to see
         body: SafeArea(
-          child: Column(
-            // mainAxisAlignment: MainAxisAlignment.center,
-            children: [
-              CircleAvatar(
-                radius: 50.0,
-                backgroundImage: AssetImage('images/profile.jpg'),
-              ),
-            ],
+          child: Center(
+            child: Column(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                CircleAvatar(
+                  radius: 50.0,
+                  backgroundImage: AssetImage('images/profile.jpg'),
+                ),
+                Text(
+                  "Kekeletso Phasha",
+                  style: TextStyle(
+                      fontFamily: 'Pacifico',
+                      color: Colors.white,
+                      fontSize: 40,
+                      fontWeight: FontWeight.bold),
+                ),
+                Text(
+                  'SOFTWARE DEVELOPER',
+                  style: TextStyle(
+                      fontFamily: 'SourceSansPro',
+                      color: Colors.deepPurpleAccent[100],
+                      fontSize: 20.0,
+                      fontWeight: FontWeight.bold,
+                      letterSpacing: 3),
+                ),
+                SizedBox(
+                  width: 150.0,
+                  height: 30.0,
+                  child: Divider(
+                    color: Colors.teal[50],
+                  ),
+                ),
+                Card(
+                  margin:
+                      EdgeInsets.symmetric(vertical: 10.0, horizontal: 25.0),
+                  child: Padding(
+                    padding: const EdgeInsets.all(8.0),
+                    child: ListTile(
+                      leading: Icon(Icons.phone,
+                          color: Colors.deepPurpleAccent, size: 30.0),
+                      title: Text(
+                        '083 395 0013',
+                        style: TextStyle(
+                            color: Colors.deepPurpleAccent[900],
+                            fontFamily: 'SourceSansPro',
+                            fontSize: 20.0),
+                      ),
+                    ),
+                  ),
+                ),
+                Card(
+                  margin:
+                      EdgeInsets.symmetric(vertical: 10.0, horizontal: 25.0),
+                  child: Padding(
+                    padding: const EdgeInsets.all(8.0),
+                    child: ListTile(
+                      leading: Icon(Icons.email,
+                          color: Colors.deepPurpleAccent, size: 30.0),
+                      title: Text(
+                        'kekephasha@gmail.com',
+                        style: TextStyle(
+                            color: Colors.deepPurpleAccent[900],
+                            fontFamily: 'SourceSansPro',
+                            fontSize: 20.0),
+                      ),
+                    ),
+                  ),
+                )
+              ],
+            ),
           ),
         ),
       ),
     );
   }
 }
+
+// Row(
+// children: [
+//
+// SizedBox(width: 20.0),
+// Text(
+// 'kekephasha@gmail.com',
+// style: TextStyle(
+// color: Colors.teal[900],
+// fontFamily: 'SourceSansPro',
+// fontSize: 20.0),
+// )
+// ],
+// ),
+// Row(
+// children: [
+// Icon(Icons.phone, color: Colors.teal, size: 30.0),
+// SizedBox(width: 20.0),
+// Text(
+// '083 395 0013',
+// style: TextStyle(
+// color: Colors.teal[900],
+// fontFamily: 'SourceSansPro',
+// fontSize: 20.0),
+// )
+// ],
+// ),
 
 // Container(
 // height: 100.0,
