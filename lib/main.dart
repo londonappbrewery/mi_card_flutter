@@ -7,6 +7,7 @@ void main() {
         backgroundColor: Colors.teal,
         body: Container(),
       ),
+      debugShowCheckedModeBanner: false, // Hide Debug Banner
     ),
   );
 }
